@@ -30,6 +30,7 @@ a{
 img{
     width: 20%;
 }
-.dark-nav{
+.dark_nav{
     background: rgb(62, 62, 125);
+    transition: 0.8s;
 }

@@ -11,6 +11,7 @@ const About = () => {
         <div className="about-left">
             <img src={about_img} alt="" className='about-img' />
             <img src= {about_icon} alt="" className='about-icon' />
+           
         </div>
         <div className='about-right'>
           <h3>Lorem ipsum dolor sit.</h3>

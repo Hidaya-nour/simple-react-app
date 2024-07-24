@@ -6,14 +6,14 @@ const Navbar = () => {
  
   const [sticky, setSticky]=useState(false);
   useEffect(()=>{
-    window.addEventListener(scroll, ()=>{
-      window.scrollY >5 ? setSticky(true) : setSticky(true);
+    window.addEventListener('scroll', ()=>{
+      window.scrollY >650 ? setSticky(true) : setSticky(false);
     })
   }, [])
-
+  
   return (
     <div>
-      <nav className= " container dark-nav">
+      <nav className=  {sticky ? 'dark_nav': ' '}>
         <img src={logo} alt="logo" />
         <div className='link'>
           <a>home</a>

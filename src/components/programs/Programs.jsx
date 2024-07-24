@@ -17,6 +17,7 @@ const Programs = () => {
           <img src={program_icon_1} alt="" />
           <p>Graduation degree</p>
         </div>
+        
       </div>
 
       <div className="program">

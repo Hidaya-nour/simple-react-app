@@ -1,0 +1,29 @@
+.contact {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.contact-call{
+    width: 45%;
+}
+
+.contact-call ul img, .contact-call h3 img{
+    width: 20px;
+}
+.contact-call ul li{
+    list-style: none;
+    padding: 15px;
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    background: rgb(182, 181, 189);
+    border: none;
+}
+button{
+}

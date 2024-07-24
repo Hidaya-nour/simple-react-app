@@ -1,0 +1,57 @@
+.testimonial{
+    position: relative;
+    margin: 10px auto;
+    width: 90%;
+}
+.button{
+    position: absolute;
+    width: 49px;
+    background: rgb(75, 75, 219);
+    border-radius: 49px;
+    padding: 15px;
+    top: 50%;
+    z-index: 5;
+    transform: translateY(-50%);
+}
+.next-btn{
+    right: 0;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    list-style: none;
+    overflow-x: hidden;
+    transition: 0.5s;
+    width: 200%;
+}
+li{
+    margin: 15px;
+    width: 50%;
+    background: rgb(238, 238, 250);
+}
+.slide{
+    line-height: 1.2;
+    box-shadow: 0 0 20px rgba(87, 87, 98, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+
+}
+.user_info{
+    display: flex;
+    align-items: center;
+    line-height: 2px;
+    font-size: 15px;
+}
+.user_info img{
+    border-radius: 40px;
+    width: 60px;
+    margin-right: 10px;
+    border: 3px solid rgb(24, 24, 106);
+}
+.user_info h3{
+    color: rgb(15, 15, 166);
+}
+

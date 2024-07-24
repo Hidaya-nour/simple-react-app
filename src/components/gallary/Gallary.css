@@ -15,7 +15,14 @@
 button{
     background: rgb(62, 62, 125);
     color: #ffff;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+button img{
+    width :20%;
 }
